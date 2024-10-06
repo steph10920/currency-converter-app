@@ -74,8 +74,8 @@ function App() {
             className={`border border-gray-300 p-2 rounded w-full ${isDarkMode ? 'bg-gray-700 text-white border-gray-600' : 'bg-white text-black'}`}
           >
             {currencyData.map((currency) => (
-              <option key={currency.code} value={currency.code}>
-                {currency.name} ({currency.code})
+              <option key={currency.currency} value={currency.currency}>
+                {currency.country} ({currency.currency})
               </option>
             ))}
           </select>
@@ -90,8 +90,8 @@ function App() {
             className={`border border-gray-300 p-2 rounded w-full ${isDarkMode ? 'bg-gray-700 text-white border-gray-600' : 'bg-white text-black'}`}
           >
             {currencyData.map((currency) => (
-              <option key={currency.code} value={currency.code}>
-                {currency.name} ({currency.code})
+              <option key={currency.currency} value={currency.currency}>
+                {currency.country} ({currency.currency})
               </option>
             ))}
           </select>

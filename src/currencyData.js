@@ -7,7 +7,7 @@ export const currencyData = [
     { country: "Angola", currency: "AOA" },
     { country: "Argentina", currency: "ARS" },
     { country: "Armenia", currency: "AMD" },
-    { country: "Australia", currency: "AUD" },
+    { country: "Australia", currency: "AUD" }, // Keeping only Australia's AUD
     { country: "Austria", currency: "EUR" },
     { country: "Azerbaijan", currency: "AZN" },
     { country: "Bahamas", currency: "BSD" },
@@ -86,7 +86,6 @@ export const currencyData = [
     { country: "Jordan", currency: "JOD" },
     { country: "Kazakhstan", currency: "KZT" },
     { country: "Kenya", currency: "KES" },
-    { country: "Kiribati", currency: "AUD" },
     { country: "Korea, North", currency: "KPW" },
     { country: "Korea, South", currency: "KRW" },
     { country: "Kuwait", currency: "KWD" },
@@ -119,7 +118,6 @@ export const currencyData = [
     { country: "Mozambique", currency: "MZN" },
     { country: "Myanmar", currency: "MMK" },
     { country: "Namibia", currency: "NAD" },
-    { country: "Nauru", currency: "AUD" },
     { country: "Nepal", currency: "NPR" },
     { country: "Netherlands", currency: "EUR" },
     { country: "New Zealand", currency: "NZD" },
@@ -148,7 +146,6 @@ export const currencyData = [
     { country: "Samoa", currency: "WST" },
     { country: "San Marino", currency: "EUR" },
     { country: "Sao Tome and Principe", currency: "STN" },
-    { country: "Saudi Arabia", currency: "SAR" },
     { country: "Senegal", currency: "XOF" },
     { country: "Serbia", currency: "RSD" },
     { country: "Seychelles", currency: "SCR" },
@@ -156,7 +153,6 @@ export const currencyData = [
     { country: "Singapore", currency: "SGD" },
     { country: "Slovakia", currency: "EUR" },
     { country: "Slovenia", currency: "EUR" },
-    { country: "Solomon Islands", currency: "AUD" },
     { country: "Somalia", currency: "SOS" },
     { country: "South Africa", currency: "ZAR" },
     { country: "South Sudan", currency: "SSP" },
@@ -177,7 +173,6 @@ export const currencyData = [
     { country: "Tunisia", currency: "TND" },
     { country: "Turkey", currency: "TRY" },
     { country: "Turkmenistan", currency: "TMT" },
-    { country: "Tuvalu", currency: "AUD" },
     { country: "Uganda", currency: "UGX" },
     { country: "Ukraine", currency: "UAH" },
     { country: "United Arab Emirates", currency: "AED" },
@@ -193,3 +188,5 @@ export const currencyData = [
     { country: "Zambia", currency: "ZMW" },
     { country: "Zimbabwe", currency: "ZWL" },
 ];
+
+export default currencyData;
